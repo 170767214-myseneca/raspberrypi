@@ -73,7 +73,7 @@ RUN apt -y install mariadb-server
 ################# IOT DATA
 WORKDIR IotSolution
 
-RUN wget --no-check-certificate 'https://drive.google.com/file/d/19GSM6XC_CUw4COJO86oc_iSkXThJquGo/view' -O IoTData.zip
+RUN wget --no-check-certificate 'https://drive.google.com/file/d/1vlMuv0bdUMYKdDEsBecoFvu_C7s0mqhD/view?usp=drive_link' -O IoTData.zip
 RUN chmod +x IoTData.zip
 RUN unzip IoTData.zip
 
